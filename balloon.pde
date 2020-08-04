@@ -5,8 +5,9 @@ void setup() {
 }
 
 
-void draw () { 
-	ball.draw(); 
+void draw () {
+	fill(255,255,0);  
+	ball.draw(250,250,100,100) ; 
 
 } 
 
